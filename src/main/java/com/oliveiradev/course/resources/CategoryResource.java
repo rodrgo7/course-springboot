@@ -13,7 +13,7 @@ import com.oliveiradev.course.entities.Category;
 import com.oliveiradev.course.services.CategoryService;
 
 @RestController
-@RequestMapping(value = "/Categories")
+@RequestMapping(value = "/categories")
 public class CategoryResource {
     @Autowired
     private CategoryService service;
