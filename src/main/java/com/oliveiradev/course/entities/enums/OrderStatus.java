@@ -1,7 +1,5 @@
 package com.oliveiradev.course.entities.enums;
 
-import com.oliveiradev.course.entities.Order;
-
 public enum OrderStatus {
     WAITING_PAYMENT(1),
     PAID(2),
